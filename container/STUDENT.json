@@ -1,0 +1,13 @@
+{
+  "first_name": "Adil",
+  "last_name": "Hasanov",
+  "team": "adil-hasanov",
+  "model": {
+    "framework": "yolo26",
+    "variant": "yolo26n",
+    "imgsz": 640,
+    "epochs_total": 50,
+    "tricks": ["mosaic", "mixup", "cos_lr"]
+  },
+  "notes": "final cat detection model"
+}
